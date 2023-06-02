@@ -1,0 +1,20 @@
+apiVersion: route.openshift.io/v1
+kind: Route
+metadata:
+  creationTimestamp: null
+  labels:
+    app.kubernetes.io/created-by: application-service
+    app.kubernetes.io/instance: rh-chili
+    app.kubernetes.io/managed-by: kustomize
+    app.kubernetes.io/name: rh-chili
+    app.kubernetes.io/part-of: rh-chili
+  name: rh-chili
+spec:
+  path: /
+  port:
+    targetPort: 8081
+  to:
+    kind: Service
+    name: rh-chili
+    weight: null
+status: {}

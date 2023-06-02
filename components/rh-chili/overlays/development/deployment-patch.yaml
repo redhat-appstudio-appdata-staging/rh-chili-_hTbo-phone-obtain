@@ -1,0 +1,18 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  creationTimestamp: null
+  name: rh-chili
+spec:
+  replicas: 1
+  selector: {}
+  strategy: {}
+  template:
+    metadata:
+      creationTimestamp: null
+    spec:
+      containers:
+      - image: quay.io/redhat-user-workloads-stage/sde-rcook-tenant/rh-chili/rh-chili@sha256:d1e7ab79c3272de3f86ddcc0b66454a1c210245dc3598b7203fd41c8ac9f2fef
+        name: my-go
+        resources: {}
+status: {}
