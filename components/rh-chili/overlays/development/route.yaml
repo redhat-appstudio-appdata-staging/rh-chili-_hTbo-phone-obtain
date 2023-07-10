@@ -8,7 +8,7 @@ metadata:
     app.kubernetes.io/managed-by: kustomize
     app.kubernetes.io/name: rh-chili
     app.kubernetes.io/part-of: rh-chili
-  name: rh-chilioq8a
+  name: rh-chilijuc2
 spec:
   path: /
   port:
