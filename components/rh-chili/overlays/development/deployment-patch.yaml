@@ -4,7 +4,6 @@ metadata:
   creationTimestamp: null
   name: rh-chili
 spec:
-  replicas: 1
   selector: {}
   strategy: {}
   template:
