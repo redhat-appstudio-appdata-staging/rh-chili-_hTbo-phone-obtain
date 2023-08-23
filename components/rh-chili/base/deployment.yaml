@@ -25,7 +25,7 @@ spec:
         app.kubernetes.io/instance: rh-chili
     spec:
       containers:
-      - image: go-image:latest
+      - image: quay.io/redhat-user-workloads-stage/sde-rcook-tenant/rh-chili/rh-chili@sha256:ed286c7b209b4ad3ede020c756c0c253912c5fed44a8451bfff7d41245b88e46
         name: my-go
         ports:
         - containerPort: 8081
